@@ -1,0 +1,723 @@
+body{
+    padding: 0;
+    margin: 0px;
+}
+
+/*Index*/
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    align-items: center;
+}
+
+.icon-navBar{
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+
+.icon-navBar:hover{
+    scale: 1.2;
+}
+
+.caminhos-Nav-Bar{
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.caminho{
+    text-decoration: none;
+    color:var(--preto);
+    font-size: 20px;
+}
+
+.caminho:hover{
+    text-decoration: none;
+    color:var(--roxo-medio);
+    font-size: 20px;
+}
+
+.TituloNavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+.incons{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgGiovane{
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 200px;
+    border-radius: 200px;
+    border: 2px solid;
+    border-color: var(--preto);
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 70px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.Titulo_home{
+    display: flex;
+    font-size: 70px;
+}
+
+.img_home{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.container_ferramentas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.titulo_ferramentas{
+    font-size: 40px;
+}
+
+.box_ferramentas{
+    display: flex;
+    border: solid 10px;
+    border-color:var(--preto);
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 25px;
+}
+
+.icons_ferramentas{
+    width: 20%;
+}
+
+.icons_ferramentas_html{
+    width: 25%;
+}
+
+.icons_ferramentas_css{
+    width: 26%;
+}
+
+/*Projects*/
+
+.bodyProjects{
+    background-color:var(--branco1);
+}
+
+.tituloProjects{
+    text-align: center;
+}
+
+.containerProjects{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.BoxProjects{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 580px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.imgBox{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.textProject{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+}
+
+/* Pagina Contato */
+
+.tituloContato{
+    text-align: center;
+}
+
+.container_contato{
+    display: flex;
+    flex-direction: row;
+    gap: -40px;
+    justify-content: left;
+    
+}
+
+.imgContato{
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+}
+
+.container_rede_sociais{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.icon_contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 100px;
+    gap: 10px
+}
+
+.boxInstagram{
+    background-color: var(--vermelho1);
+    border-radius: 10px;
+}
+
+.boxLinkedin{
+    background-color: var(--azul-medio);
+    border-radius: 10px;
+}
+
+.boxFacebook{
+    background-color:var(--azul-escuro);
+    border-radius: 10px;
+}
+
+.boxTwitter{
+    background-color: var(--azul-claro1);
+    border-radius: 10px;
+}
+
+.text_contato{
+    gap: 0px;
+    text-decoration: none;
+}
+
+.iconSeguir{
+    width: 50px;
+    height: 50px;
+}
+
+.caminhoRedeSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.container_formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    gap: 30px;
+    background-color:var(--roxo-forte);
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    color: var(--branco);
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.input_objetivo{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    text-align: justify;
+}
+
+.container_apresentacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container_about{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: -20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Jaro:opsz@6..72&display=swap');
+
+.titulo_about {
+    margin-bottom: 10px;
+    color:var(--cinza);
+    font-family: 'Jaro', sans-serif;
+}
+
+.container_about h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.imgAbout{
+    height: 400px;
+    width: 400px;
+    margin-right: 200px;
+    border-radius: 200px;
+}
+
+.titulo_about{
+    font-size: 90px;
+}
+
+.objetivoSobreMin{
+    background-color:var(--azul-claro);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_objetivo{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.objetivos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.imgWebDeveloper{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.textObjetivo{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.projetosExeperiencia{
+    text-align: center;
+}
+
+.projetoExperiencia{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: 50px;
+}
+.projetoExperiencia2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    background-color:var(--vermelho);
+    height: 500px;
+}
+
+.projetoExperiencia3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: 0px;
+    height: 500px;
+}
+
+
+
+.ensino1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--verde-limao);
+    height: 250px;
+}
+
+.imgIte{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.textProjetosExperiencia{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.textProjetosExperiencia1{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imgProjeto{
+    width: 600px;
+    margin-right: 100px;
+    border-radius: 15px;
+}
+
+.imgProjeto2{
+    width: 600px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.imgProjeto3{
+    width: 600px;
+    margin-right: 100px;
+    border-radius: 15px;
+}
+
+.enviar{
+    height: 35px;
+    width: 80%;
+    background-color: var(--roxo-claro);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.enviar:hover{
+    background-color: var(--roxo);
+}
+
+.container-trabalho{
+    
+    display: flex;
+}
+
+.tituloTrabalho{
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .container_apresentacao{
+        flex-direction: column-reverse;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .imgAbout{
+        height: 300px;
+        width: 300px;
+        margin-left: 170px;
+        margin-top: 70px;
+    }
+
+    .textAbout{
+        font-size: 10px;
+    }
+
+    .imgWebDeveloper{
+        width: 400px;
+    }
+
+    .objetivos{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .textObjetivo{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .projetoExperiencia{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .imgProjeto{
+        width: 500px;
+        margin-left: 80px;
+    }
+
+    .projetoExperiencia2{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        gap: 50px;
+    }
+
+    .imgProjeto2{
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .projetoExperiencia3{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        gap: 50px;
+    }
+
+    .imgProjeto3{
+        width: 370px;
+        margin-left: 0px;
+        margin-left: 100px;
+    }
+    
+
+    .ensino1{
+        margin-top: 50px;
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .container-trabalho{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .container_contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_rede_sociais{
+        flex-direction: column;
+        margin-right: 53px;
+    }
+
+    .container_formulario{
+        height: 500px;
+        margin-top: 60px;
+        margin-left: 45px;
+    }
+
+    .input_objetivo{
+        height: 200px;
+    }
+
+    .objetivoSobreMin{
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-bar{
+        flex-direction: column ;
+        justify-content: space-between;
+        margin-bottom: 200px;
+        text-align: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .caminhos-Nav-Bar{
+        text-align: center;
+        margin-right: 70px;
+        gap: 30px;
+    }
+
+    .inocns{
+        margin-left: 20px;
+    }
+
+    .home{
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .box_ferramentas{
+        flex-direction: column;
+        width: 200px;
+        height: 800px;
+    }
+
+    .icons_ferramentas_html{
+        width: 200px;
+    }
+
+    .icons_ferramentas_css{
+        width: 200px;
+    }
+
+    .icons_ferramentas{
+        width: 180px;
+    }
+
+    .titulo_ferramentas{
+        text-align: center;
+    }
+
+    .imgProjeto{
+        width: 350px;
+    }
+
+    .textProjetosExperiencia{
+        font-size: 20px;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgProjeto2{
+        width: 400px;
+    }
+
+    .textProjetosExperiencia2{
+        font-size: 20px;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .projetoExperiencia{
+        gap: 40px;
+    }
+
+    .imgIte{
+        width: 250px;
+        height: 250px;
+        margin-right: 100px;
+    }
+
+    .textProjetosExperiencia1{
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+select.trabalho{
+    padding: 40px 4%;
+}
+
+section.trabalho .flex{
+    gap: 60px;
+}
+
+.trabalho .Work{
+    color:var(--preto);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: .2s;
+}
+.trabalho .Work:hover{
+    transform:scale(1.05);
+    box-shadow: 0 0 8px var(--vermelho1)
+}
+.trabalho .Work i{
+    font-size: 48px;
+    color:var(--vermelho);
+}
+
+.trabalho .Work h3{
+    font-size: 26px;
+    margin: 15px 0;
+}
+ h1{
+    font-size: 40px;
+    margin-top: 70px;
+ }
+
+ .container-Projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+ }
+
+
+:root{
+    --branco:#fff;
+    --vermelho:#fb5555;
+    --roxo:#b57cff;
+    --cinza:#595757;
+    --azul-claro:#b6dfff;
+    --roxo-claro: rgb(122, 85, 224);
+    --preto:black;
+    --roxo-medio:rgb(100, 4, 255);
+    --branco1: aliceblue;
+    --vermelho1:rgb(205, 52, 44);
+    --azul-medio:rgb(51, 111, 195);
+    --azul-escuro: rgb(25, 63, 117);
+    --azul-claro1: rgb(146, 184, 237);
+    --roxo-forte : rgb(13, 4, 108);
+    --verde-limao: rgb(162, 255, 169);
+
+}
